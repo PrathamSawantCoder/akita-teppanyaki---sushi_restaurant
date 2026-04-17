@@ -16,12 +16,19 @@
   html {
     scroll-behavior: smooth;
   }
+  html,
+  body,
+  #root {
+    overflow-x: hidden;
+  }
   body {
     @apply bg-brand-warm-white text-brand-charcoal font-sans antialiased;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
   }
+
+  
 }
 
 @layer utilities {
