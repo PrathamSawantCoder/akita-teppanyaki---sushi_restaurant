@@ -127,17 +127,19 @@ export const Navbar = () => {
               );
             })}
           </motion.div>
-          <Button variant="outline" size="sm" className={cn(
-            "border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white cursor-pointer",
-            !isScrolled && "border-white/30 text-white hover:bg-white hover:text-brand-green cursor-pointer"
-          )}>
-            <Calendar className="w-4 h-4 mr-2" />
-            {reserve}
-          </Button>
-          <Button variant="wolt" size="sm" className="cursor-pointer">
-            <ShoppingBag className="w-4 h-4 mr-2" />
-            {orderOnWolt}
-          </Button>
+          <div className="hidden min-[1140px]:flex items-center space-x-4">
+            <Button variant="outline" size="sm" className={cn(
+              "border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white cursor-pointer",
+              !isScrolled && "border-white/30 text-white hover:bg-white hover:text-brand-green cursor-pointer"
+            )}>
+              <Calendar className="w-4 h-4 mr-2" />
+              {reserve}
+            </Button>
+            <Button variant="wolt" size="sm" className="cursor-pointer">
+              <ShoppingBag className="w-4 h-4 mr-2" />
+              {orderOnWolt}
+            </Button>
+          </div>
         </div>
 
         {/* Mobile Toggle */}
