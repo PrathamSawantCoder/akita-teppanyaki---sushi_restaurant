@@ -1,47 +1,18 @@
 import { motion } from 'motion/react';
 import { SectionHeading } from './ui/SectionHeading';
-
-const menuItems = [
-  {
-    name: 'Dragon Roll',
-    description: 'Tempura shrimp, cucumber, topped with avocado, eel sauce, and spicy mayo.',
-    image: 'https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&q=80&w=600',
-  },
-  {
-    name: 'Salmon Nigiri Platter',
-    description: 'Fresh Atlantic salmon slices over hand-pressed seasoned rice.',
-    image: 'https://images.unsplash.com/photo-1583623025817-d180a2221d0a?auto=format&fit=crop&q=80&w=600',
-  },
-  {
-    name: 'Teppanyaki Ribeye',
-    description: 'Premium ribeye steak grilled with garlic butter and Japanese soy sauce.',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600',
-  },
-  {
-    name: 'Vegetable Tempura',
-    description: 'Assorted seasonal vegetables in a light, crispy tempura batter.',
-    image: 'https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=600',
-  },
-  {
-    name: 'Chicken Teriyaki',
-    description: 'Grilled chicken breast glazed with our house-made teriyaki sauce.',
-    image: 'https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?auto=format&fit=crop&q=80&w=600',
-  },
-  {
-    name: 'Matcha Cheesecake',
-    description: 'Creamy cheesecake infused with premium Japanese green tea.',
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600',
-  },
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export const MenuPreview = () => {
+  const { t } = useLanguage();
+  const menuItems = t<Array<{ name: string; description: string; image: string; imageAlt: string }>>('menu.items');
+
   return (
     <section id="menu" className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-6">
         <SectionHeading
-          subtitle="Signature Dishes"
-          title="A Glimpse of Our Menu"
-          description="From our signature rolls to sizzling teppanyaki, discover the dishes that make Akita a local favorite."
+          subtitle={t<string>('menu.subtitle')}
+          title={t<string>('menu.title')}
+          description={t<string>('menu.description')}
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -57,7 +28,7 @@ export const MenuPreview = () => {
               <div className="relative aspect-square rounded-3xl overflow-hidden mb-6 shadow-lg group-hover:shadow-2xl transition-all duration-500">
                 <img
                   src={item.image}
-                  alt={item.name}
+                  alt={item.imageAlt}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
                 />

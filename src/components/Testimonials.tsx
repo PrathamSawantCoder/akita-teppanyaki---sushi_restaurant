@@ -1,29 +1,12 @@
 import { motion } from 'motion/react';
 import { SectionHeading } from './ui/SectionHeading';
 import { Star, Quote } from 'lucide-react';
-
-const testimonials = [
-  {
-    name: 'Anna K.',
-    role: 'Local Guide',
-    content: 'The best sushi buffet in Joensuu! Everything is so fresh, and the variety is impressive. The teppanyaki is a must-try.',
-    rating: 5,
-  },
-  {
-    name: 'Markus L.',
-    role: 'Regular Customer',
-    content: 'We often order through Wolt, and the food always arrives fresh and beautifully presented. Fast delivery and great quality.',
-    rating: 5,
-  },
-  {
-    name: 'Elena S.',
-    role: 'Food Enthusiast',
-    content: 'A truly premium atmosphere. Perfect for a business lunch or a special family dinner. The staff is incredibly friendly.',
-    rating: 5,
-  },
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export const Testimonials = () => {
+  const { t } = useLanguage();
+  const testimonials = t<Array<{ name: string; role: string; content: string; rating: number }>>('testimonials.items');
+
   return (
     <section className="py-24 md:py-32 bg-brand-warm-white relative overflow-hidden">
       {/* Decorative Quote Icon */}
@@ -33,9 +16,9 @@ export const Testimonials = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <SectionHeading
-          subtitle="Guest Reviews"
-          title="What Our Guests Say"
-          description="We take pride in providing an exceptional dining experience. Here is what some of our valued guests have to say."
+          subtitle={t<string>('testimonials.subtitle')}
+          title={t<string>('testimonials.title')}
+          description={t<string>('testimonials.description')}
         />
 
         <div className="grid md:grid-cols-3 gap-8">

@@ -1,42 +1,18 @@
 import { motion } from 'motion/react';
 import { SectionHeading } from './ui/SectionHeading';
-
-const highlights = [
-  {
-    title: 'Sushi Selection',
-    description: 'Hand-rolled nigiri, maki, and sashimi using the freshest catch of the day.',
-    image: 'https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    title: 'Teppanyaki Favorites',
-    description: 'Sizzling meats and vegetables grilled to perfection on our traditional iron plate.',
-    image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  },
-  {
-    title: 'Fresh Sides',
-    description: 'Crispy tempura, edamame, and authentic Japanese salads to complement your meal.',
-    image: 'https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    title: 'Hot Buffet Dishes',
-    description: 'A wide variety of hot Japanese and Asian fusion dishes, from gyoza to teriyaki.',
-    image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    title: 'Decadent Desserts',
-    description: 'Sweet endings featuring matcha treats, fresh fruits, and traditional Japanese sweets.',
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=800',
-  },
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export const BuffetHighlights = () => {
+  const { t } = useLanguage();
+  const highlights = t<Array<{ title: string; description: string; image: string; imageAlt: string }>>('buffet.items');
+
   return (
     <section id="buffet" className="py-24 md:py-32 bg-brand-warm-white">
       <div className="container mx-auto px-6">
         <SectionHeading
-          subtitle="The Experience"
-          title="Buffet Highlights"
-          description="Explore our diverse selection of authentic Japanese flavors, prepared fresh throughout the day."
+          subtitle={t<string>('buffet.subtitle')}
+          title={t<string>('buffet.title')}
+          description={t<string>('buffet.description')}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -53,7 +29,7 @@ export const BuffetHighlights = () => {
               <div className="relative h-64 overflow-hidden">
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={item.imageAlt}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
                 />

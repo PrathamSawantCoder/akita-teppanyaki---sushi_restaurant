@@ -1,48 +1,19 @@
 import { motion } from 'motion/react';
 import { SectionHeading } from './ui/SectionHeading';
 import { cn } from '../lib/utils';
-
-const images = [
-  {
-    url: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800',
-    title: 'Sushi Platter',
-    size: 'large',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800',
-    title: 'Dining Area',
-    size: 'small',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1632158929962-a929c9e87570?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Teppanyaki Grill',
-    size: 'small',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800',
-    title: 'Fresh Sashimi',
-    size: 'medium',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800',
-    title: 'Buffet Selection',
-    size: 'medium',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800',
-    title: 'Japanese Sides',
-    size: 'small',
-  },
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export const Gallery = () => {
+  const { t } = useLanguage();
+  const images = t<Array<{ url: string; title: string; size: 'large' | 'medium' | 'small'; alt: string }>>('gallery.images');
+
   return (
     <section id="gallery" className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-6">
         <SectionHeading
-          subtitle="Visual Journey"
-          title="Inside Akita"
-          description="Take a look at our beautiful dining space and the exquisite dishes we prepare with passion."
+          subtitle={t<string>('gallery.subtitle')}
+          title={t<string>('gallery.title')}
+          description={t<string>('gallery.description')}
         />
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -61,7 +32,7 @@ export const Gallery = () => {
             >
               <img
                 src={image.url}
-                alt={image.title}
+                alt={image.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />

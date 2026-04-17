@@ -1,8 +1,11 @@
 import { motion } from 'motion/react';
 import { MapPin, Phone, Clock, ShoppingBag, Navigation } from 'lucide-react';
 import { Button } from './ui/Button';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export const MapSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="contact" className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-6">
@@ -15,7 +18,7 @@ export const MapSection = () => {
               viewport={{ once: true }}
               className="inline-block text-brand-gold font-semibold uppercase tracking-[0.2em] mb-6"
             >
-              Find Us
+              {t<string>('contact.eyebrow')}
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -24,8 +27,8 @@ export const MapSection = () => {
               transition={{ delay: 0.1 }}
               className="text-4xl md:text-5xl lg:text-6xl font-serif text-brand-charcoal mb-8 leading-tight"
             >
-              Visit Us in <br />
-              <span className="text-brand-green italic">The Heart of Joensuu</span>
+              {t<string>('contact.titleLineOne')} <br />
+              <span className="text-brand-green italic">{t<string>('contact.titleAccent')}</span>
             </motion.h2>
 
             <div className="space-y-8 mb-12">
@@ -34,8 +37,8 @@ export const MapSection = () => {
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">Address</p>
-                  <p className="text-lg text-brand-charcoal/80">Kauppakatu 25, 80100 Joensuu, Finland</p>
+                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">{t<string>('contact.addressLabel')}</p>
+                  <p className="text-lg text-brand-charcoal/80">{t<string>('contact.address')}</p>
                 </div>
               </div>
 
@@ -44,8 +47,8 @@ export const MapSection = () => {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">Phone</p>
-                  <p className="text-lg text-brand-charcoal/80">+358 12 345 6789</p>
+                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">{t<string>('contact.phoneLabel')}</p>
+                  <p className="text-lg text-brand-charcoal/80">{t<string>('contact.phone')}</p>
                 </div>
               </div>
 
@@ -54,10 +57,10 @@ export const MapSection = () => {
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">Current Status</p>
+                  <p className="text-sm text-brand-gold uppercase tracking-widest font-bold mb-1">{t<string>('contact.statusLabel')}</p>
                   <p className="text-lg text-brand-charcoal/80 flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2" />
-                    Open Now until 21:00
+                    {t<string>('contact.statusOpen')}
                   </p>
                 </div>
               </div>
@@ -66,15 +69,15 @@ export const MapSection = () => {
             <div className="flex flex-wrap gap-4">
               <Button variant="primary" className="cursor-pointer">
                 <Navigation className="w-4 h-4 mr-2 cursor-pointer" />
-                Get Directions
+                {t<string>('contact.directionsCta')}
               </Button>
               <Button variant="outline" className="cursor-pointer">
                 <Phone className="w-4 h-4 mr-2 cursor-pointer" />
-                Call Now
+                {t<string>('contact.callCta')}
               </Button>
               <Button variant="wolt" className="cursor-pointer">
                 <ShoppingBag className="w-4 h-4 mr-2 cursor-pointer" />
-                Order on Wolt
+                {t<string>('contact.orderCta')}
               </Button>
             </div>
           </div>
@@ -88,7 +91,7 @@ export const MapSection = () => {
           >
             {/* Using an iframe for a real Google Map placeholder */}
             <iframe
-              title="Akita Restaurant Location"
+              title={t<string>('contact.mapTitle')}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d551.6278820255288!2d29.76199490000001!3d62.603228099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469b87245c9d0e1d%3A0xc673a7d9f9e2842e!2sAkita%20Teppanyaki%20%26%20Sushi!5e1!3m2!1sen!2sfi!4v1776335101498!5m2!1sen!2sfi"
               className="absolute inset-0 w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
               style={{ border: 0 }}

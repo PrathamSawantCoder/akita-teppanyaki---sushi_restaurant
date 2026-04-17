@@ -1,0 +1,622 @@
+{
+  "en": {
+    "meta": {
+      "siteName": "Akita Teppanyaki & Sushi",
+      "brand": "Akita"
+    },
+    "navbar": {
+      "brandPrimary": "Akita",
+      "brandSecondary": "Teppanyaki & Sushi",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "Menu", "href": "#menu" },
+        { "name": "Buffet", "href": "#buffet" },
+        { "name": "Delivery", "href": "#delivery" },
+        { "name": "About", "href": "#about" },
+        { "name": "Gallery", "href": "#gallery" },
+        { "name": "Contact", "href": "#contact" }
+      ],
+      "reserve": "Reserve",
+      "reserveTable": "Reserve Table",
+      "orderOnWolt": "Order on Wolt",
+      "openMenu": "Open navigation menu",
+      "closeMenu": "Close navigation menu"
+    },
+    "languageSwitcher": {
+      "label": "Switch language",
+      "english": "English",
+      "finnish": "Finnish",
+      "shortEnglish": "EN",
+      "shortFinnish": "FI"
+    },
+    "hero": {
+      "eyebrow": "Fresh Sushi • Teppanyaki • Buffet • Delivery",
+      "titleLineOne": "Premium Japanese Buffet",
+      "titleAccent": "Experience in Joensuu",
+      "description": "Discover the art of Japanese cuisine. From fresh sushi made daily to sizzling teppanyaki favorites, enjoy a refined dining experience or fast delivery to your door.",
+      "primaryCta": "Reserve Table",
+      "secondaryCta": "Order on Wolt",
+      "scroll": "Discover More",
+      "heroAlt": "Premium sushi platter"
+    },
+    "about": {
+      "subtitle": "Our Story",
+      "title": "A Tradition of Excellence in Every Bite",
+      "description": "Akita Teppanyaki & Sushi brings the authentic flavors of Japan to the heart of Joensuu. Our mission is to provide a premium dining experience that combines traditional techniques with modern culinary creativity.",
+      "imageAlt": "Restaurant interior",
+      "experienceYears": "10+ Years",
+      "experienceLabel": "Of Culinary Excellence",
+      "features": [
+        "Authentic Japanese Buffet Dining",
+        "Fresh Sushi Handcrafted Daily",
+        "Sizzling Teppanyaki Favorites",
+        "Cozy & Premium Atmosphere",
+        "Fast Takeaway & Delivery"
+      ],
+      "quote": "We believe that great food starts with the finest ingredients. Our chefs meticulously select every piece of fish and every vegetable to ensure that every dish served at Akita meets our high standards of quality and freshness.",
+      "author": "Master Chef Akita",
+      "role": "Executive Chef"
+    },
+    "buffet": {
+      "subtitle": "The Experience",
+      "title": "Buffet Highlights",
+      "description": "Explore our diverse selection of authentic Japanese flavors, prepared fresh throughout the day.",
+      "items": [
+        {
+          "title": "Sushi Selection",
+          "description": "Hand-rolled nigiri, maki, and sashimi using the freshest catch of the day.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Selection of sushi"
+        },
+        {
+          "title": "Teppanyaki Favorites",
+          "description": "Sizzling meats and vegetables grilled to perfection on our traditional iron plate.",
+          "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "imageAlt": "Teppanyaki dish on grill"
+        },
+        {
+          "title": "Fresh Sides",
+          "description": "Crispy tempura, edamame, and authentic Japanese salads to complement your meal.",
+          "image": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Japanese side dishes"
+        },
+        {
+          "title": "Hot Buffet Dishes",
+          "description": "A wide variety of hot Japanese and Asian fusion dishes, from gyoza to teriyaki.",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Hot buffet dishes"
+        },
+        {
+          "title": "Decadent Desserts",
+          "description": "Sweet endings featuring matcha treats, fresh fruits, and traditional Japanese sweets.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Japanese dessert selection"
+        }
+      ]
+    },
+    "delivery": {
+      "eyebrow": "Akita at Home",
+      "titleLineOne": "Enjoy the Taste of Japan",
+      "titleAccent": "Delivered to Your Door",
+      "description": "Craving fresh sushi or sizzling teppanyaki? Order your favorites through Wolt for fast and convenient delivery, or call us for a quick pickup. Perfect for family dinners or office lunches.",
+      "orderCta": "Order on Wolt",
+      "pickupCta": "Call for Pickup",
+      "imageAlt": "Sushi delivery packaging"
+    },
+    "menu": {
+      "subtitle": "Signature Dishes",
+      "title": "A Glimpse of Our Menu",
+      "description": "From our signature rolls to sizzling teppanyaki, discover the dishes that make Akita a local favorite.",
+      "items": [
+        {
+          "name": "Dragon Roll",
+          "description": "Tempura shrimp, cucumber, topped with avocado, eel sauce, and spicy mayo.",
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Dragon roll sushi"
+        },
+        {
+          "name": "Salmon Nigiri Platter",
+          "description": "Fresh Atlantic salmon slices over hand-pressed seasoned rice.",
+          "image": "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Salmon nigiri platter"
+        },
+        {
+          "name": "Teppanyaki Ribeye",
+          "description": "Premium ribeye steak grilled with garlic butter and Japanese soy sauce.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Teppanyaki ribeye steak"
+        },
+        {
+          "name": "Vegetable Tempura",
+          "description": "Assorted seasonal vegetables in a light, crispy tempura batter.",
+          "image": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Vegetable tempura"
+        },
+        {
+          "name": "Chicken Teriyaki",
+          "description": "Grilled chicken breast glazed with our house-made teriyaki sauce.",
+          "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Chicken teriyaki"
+        },
+        {
+          "name": "Matcha Cheesecake",
+          "description": "Creamy cheesecake infused with premium Japanese green tea.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Matcha cheesecake"
+        }
+      ]
+    },
+    "pricing": {
+      "subtitle": "Plan Your Visit",
+      "title": "Buffet Pricing & Hours",
+      "description": "Join us for a delightful culinary journey. We offer special rates for lunch and a premium experience for dinner and weekends.",
+      "perPerson": "/ person",
+      "reserveNow": "Reserve Now",
+      "cards": [
+        {
+          "title": "Lunch Buffet on Workdays",
+          "time": "Mon - Fri | 11:00 - 15:00",
+          "price": "14.50€",
+          "features": ["Full Sushi Selection", "Hot Dishes", "Salad Bar", "Coffee & Tea"]
+        },
+        {
+          "title": "Weekend Buffet",
+          "time": "Sat - Sun | 15:00 - Close",
+          "price": "17.90€",
+          "features": ["Premium Sushi Selection", "Teppanyaki Grill", "Specialty Rolls", "Dessert Buffet"],
+          "highlight": true
+        }
+      ],
+      "hoursTitle": "Opening Hours",
+      "hours": [
+        { "day": "Monday - Thursday", "time": "11:00 - 21:00" },
+        { "day": "Friday", "time": "11:00 - 22:00" },
+        { "day": "Saturday", "time": "12:00 - 22:00" },
+        { "day": "Sunday", "time": "12:00 - 21:00" }
+      ],
+      "noteLabel": "Note",
+      "note": "Kitchen closes 30 minutes before closing time. Special holiday hours may apply."
+    },
+    "gallery": {
+      "subtitle": "Visual Journey",
+      "title": "Inside Akita",
+      "description": "Take a look at our beautiful dining space and the exquisite dishes we prepare with passion.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800",
+          "title": "Sushi Platter",
+          "size": "large",
+          "alt": "Premium sushi platter"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+          "title": "Dining Area",
+          "size": "small",
+          "alt": "Restaurant dining area"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1632158929962-a929c9e87570?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Teppanyaki Grill",
+          "size": "small",
+          "alt": "Teppanyaki grill"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800",
+          "title": "Fresh Sashimi",
+          "size": "medium",
+          "alt": "Fresh sashimi"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800",
+          "title": "Buffet Selection",
+          "size": "medium",
+          "alt": "Buffet selection"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800",
+          "title": "Japanese Sides",
+          "size": "small",
+          "alt": "Japanese side dishes"
+        }
+      ]
+    },
+    "testimonials": {
+      "subtitle": "Guest Reviews",
+      "title": "What Our Guests Say",
+      "description": "We take pride in providing an exceptional dining experience. Here is what some of our valued guests have to say.",
+      "items": [
+        {
+          "name": "Anna K.",
+          "role": "Local Guide",
+          "content": "The best sushi buffet in Joensuu! Everything is so fresh, and the variety is impressive. The teppanyaki is a must-try.",
+          "rating": 5
+        },
+        {
+          "name": "Markus L.",
+          "role": "Regular Customer",
+          "content": "We often order through Wolt, and the food always arrives fresh and beautifully presented. Fast delivery and great quality.",
+          "rating": 5
+        },
+        {
+          "name": "Elena S.",
+          "role": "Food Enthusiast",
+          "content": "A truly premium atmosphere. Perfect for a business lunch or a special family dinner. The staff is incredibly friendly.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Find Us",
+      "titleLineOne": "Visit Us in",
+      "titleAccent": "The Heart of Joensuu",
+      "addressLabel": "Address",
+      "address": "Kauppakatu 25, 80100 Joensuu, Finland",
+      "phoneLabel": "Phone",
+      "phone": "+358 12 345 6789",
+      "statusLabel": "Current Status",
+      "statusOpen": "Open Now until 21:00",
+      "directionsCta": "Get Directions",
+      "callCta": "Call Now",
+      "orderCta": "Order on Wolt",
+      "mapTitle": "Akita Restaurant Location"
+    },
+    "footer": {
+      "description": "Experience the finest Japanese buffet in Joensuu. Fresh sushi, sizzling teppanyaki, and a premium atmosphere await you.",
+      "quickLinksTitle": "Quick Links",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "Menu", "href": "#menu" },
+        { "name": "Buffet", "href": "#buffet" },
+        { "name": "Delivery", "href": "#delivery" },
+        { "name": "About", "href": "#about" },
+        { "name": "Gallery", "href": "#gallery" },
+        { "name": "Contact", "href": "#contact" }
+      ],
+      "contactTitle": "Contact Us",
+      "orderTitle": "Order Online",
+      "orderDescription": "Get your favorite Japanese dishes delivered directly to your door via Wolt.",
+      "orderCta": "Order on Wolt",
+      "deliveryNote": "Fast & Secure Delivery",
+      "copyright": "© 2026 Akita Teppanyaki & Sushi. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "ai": {
+      "systemPrompt": "You are the Akita Teppanyaki & Sushi AI Concierge. Your goal is to help guests with information about the restaurant and assist with table reservations. Restaurant Info: - Name: Akita Teppanyaki & Sushi - Cuisine: Japanese buffet, sushi, teppanyaki - Location: Kauppakatu 25, 80100 Joensuu, Finland - Signature Dishes: Dragon Roll, Salmon Nigiri Platter, Teppanyaki Ribeye, Matcha Cheesecake. - Hours: Mon-Thu 11am-9pm, Fri 11am-10pm, Sat 12pm-10pm, Sun 12pm-9pm. - Reservations: We take reservations for parties up to 10 people. - Delivery: Available via Wolt and takeaway pickup. When a user wants to reserve: 1. Ask for the date and time. 2. Ask for the number of guests. 3. Ask for a name and contact info. 4. Confirm the details (simulated). Be elegant, professional, and welcoming.",
+      "notConfigured": "The AI concierge is not configured yet. Add `VITE_OPENROUTER_API_KEY` to your environment variables.",
+      "processingError": "I apologize, I'm having trouble processing that request.",
+      "resting": "I'm sorry, I'm currently resting. Please try again later.",
+      "title": "Akita Concierge",
+      "subtitle": "Always at your service",
+      "welcome": "Welcome to Akita Teppanyaki & Sushi. How may I assist you with your dining experience today?",
+      "suggestionTitle": "Popular questions",
+      "suggestedQuestions": [
+        {
+          "id": "hours",
+          "label": "What are your opening hours?"
+        },
+        {
+          "id": "buffet-price",
+          "label": "How much is the buffet?"
+        },
+        {
+          "id": "reservation",
+          "label": "How can I reserve a table?"
+        }
+      ],
+      "placeholder": "Ask about reservations or menu...",
+      "open": "Open AI concierge",
+      "close": "Close AI concierge"
+    }
+  },
+  "fi": {
+    "meta": {
+      "siteName": "Akita Teppanyaki & Sushi",
+      "brand": "Akita"
+    },
+    "navbar": {
+      "brandPrimary": "Akita",
+      "brandSecondary": "Teppanyaki & Sushi",
+      "links": [
+        { "name": "Etusivu", "href": "#home" },
+        { "name": "Menu", "href": "#menu" },
+        { "name": "Buffet", "href": "#buffet" },
+        { "name": "Kuljetus", "href": "#delivery" },
+        { "name": "Meistä", "href": "#about" },
+        { "name": "Galleria", "href": "#gallery" },
+        { "name": "Yhteystiedot", "href": "#contact" }
+      ],
+      "reserve": "Varaa",
+      "reserveTable": "Varaa pöytä",
+      "orderOnWolt": "Tilaa Woltista",
+      "openMenu": "Avaa navigointivalikko",
+      "closeMenu": "Sulje navigointivalikko"
+    },
+    "languageSwitcher": {
+      "label": "Vaihda kieli",
+      "english": "Englanti",
+      "finnish": "Suomi",
+      "shortEnglish": "EN",
+      "shortFinnish": "FI"
+    },
+    "hero": {
+      "eyebrow": "Tuoretta sushia • Teppanyakia • Buffet • Kuljetus",
+      "titleLineOne": "Ensiluokkainen japanilainen buffet",
+      "titleAccent": "elämys Joensuussa",
+      "description": "Tutustu japanilaisen keittiön taiteeseen. Päivittäin valmistetusta tuoreesta sushista kuumiin teppanyaki-suosikkeihin – nauti hienostuneesta ravintolaelämyksestä tai nopeasta kotiinkuljetuksesta.",
+      "primaryCta": "Varaa pöytä",
+      "secondaryCta": "Tilaa Woltista",
+      "scroll": "Tutustu lisää",
+      "heroAlt": "Ensiluokkainen sushiannos"
+    },
+    "about": {
+      "subtitle": "Tarinamme",
+      "title": "Perinne ja laatu jokaisessa suupalassa",
+      "description": "Akita Teppanyaki & Sushi tuo aidot Japanin maut Joensuun sydämeen. Tavoitteemme on tarjota korkeatasoinen ruokailuelämys, jossa perinteiset tekniikat yhdistyvät moderniin kulinaristiseen luovuuteen.",
+      "imageAlt": "Ravintolan sisätila",
+      "experienceYears": "10+ vuotta",
+      "experienceLabel": "kulinaristista osaamista",
+      "features": [
+        "Aito japanilainen buffetelämys",
+        "Tuore sushi käsintehtynä päivittäin",
+        "Herkulliset teppanyaki-suosikit",
+        "Kodikas ja premium-tason tunnelma",
+        "Nopea takeaway ja kuljetus"
+      ],
+      "quote": "Uskomme, että loistava ruoka alkaa parhaista raaka-aineista. Kokkimme valitsevat huolellisesti jokaisen kalanpalan ja jokaisen vihanneksen varmistaakseen, että jokainen Akitassa tarjoiltava annos täyttää korkeat laatu- ja tuoreusvaatimuksemme.",
+      "author": "Mestarikokki Akita",
+      "role": "Pääkokki"
+    },
+    "buffet": {
+      "subtitle": "Elämys",
+      "title": "Buffetin kohokohdat",
+      "description": "Tutustu monipuoliseen valikoimaamme aitoja japanilaisia makuja, jotka valmistetaan tuoreina pitkin päivää.",
+      "items": [
+        {
+          "title": "Sushivalikoima",
+          "description": "Käsin rullattua nigiriä, makia ja sashimia päivän tuoreimmasta saaliista.",
+          "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Sushivalikoima"
+        },
+        {
+          "title": "Teppanyaki-suosikit",
+          "description": "Sihahtavat lihat ja vihannekset grillattuna täydellisiksi perinteisellä rautalevyllä.",
+          "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "imageAlt": "Teppanyakiannos grillillä"
+        },
+        {
+          "title": "Tuoreet lisukkeet",
+          "description": "Rapeaa tempuraa, edamamea ja aitoja japanilaisia salaatteja täydentämään ateriaasi.",
+          "image": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Japanilaisia lisukkeita"
+        },
+        {
+          "title": "Lämpimät buffetruoat",
+          "description": "Laaja valikoima lämpimiä japanilaisia ja aasialaisia fusion-annoksia gyozasta teriyakiin.",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Lämpimiä buffetruokia"
+        },
+        {
+          "title": "Ylelliset jälkiruoat",
+          "description": "Makeita päätöksiä matcha-herkuilla, tuoreilla hedelmillä ja perinteisillä japanilaisilla makeisilla.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=800",
+          "imageAlt": "Japanilainen jälkiruokavalikoima"
+        }
+      ]
+    },
+    "delivery": {
+      "eyebrow": "Akita kotona",
+      "titleLineOne": "Nauti Japanin mauista",
+      "titleAccent": "toimitettuna kotiovellesi",
+      "description": "Himoitsetko tuoretta sushia tai kuumaa teppanyakia? Tilaa suosikkisi Woltin kautta nopeasti ja vaivattomasti tai soita noutotilaus. Täydellinen valinta perheillallisille tai toimistolounaalle.",
+      "orderCta": "Tilaa Woltista",
+      "pickupCta": "Soita noutotilaus",
+      "imageAlt": "Sushin kuljetuspakkaus"
+    },
+    "menu": {
+      "subtitle": "Tunnusannokset",
+      "title": "Kurkkaus menuumme",
+      "description": "Tunnusrullistamme kuumiin teppanyaki-annoksiin – tutustu annoksiin, jotka tekevät Akitasta paikallisen suosikin.",
+      "items": [
+        {
+          "name": "Dragon Roll",
+          "description": "Tempurakatkarapua ja kurkkua, päällä avokadoa, ankeriaskastiketta ja tulista majoneesia.",
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Dragon Roll -sushi"
+        },
+        {
+          "name": "Lohinigirilautanen",
+          "description": "Tuoreita Atlantin lohiviipaleita käsin muotoillun maustetun riisin päällä.",
+          "image": "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Lohinigirilautanen"
+        },
+        {
+          "name": "Teppanyaki-ribeye",
+          "description": "Ensiluokkainen ribeye-pihvi grillattuna valkosipulivoilla ja japanilaisella soijakastikkeella.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Teppanyaki-ribeye"
+        },
+        {
+          "name": "Kasvistempura",
+          "description": "Sesongin vihanneksia kevyessä ja rapeassa tempurataikinassa.",
+          "image": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Kasvistempura"
+        },
+        {
+          "name": "Chicken Teriyaki",
+          "description": "Grillattua kananrintaa talon teriyaki-kastikkeella kuorrutettuna.",
+          "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Kana teriyaki"
+        },
+        {
+          "name": "Matcha-juustokakku",
+          "description": "Samettinen juustokakku, jossa on ensiluokkaista japanilaista vihreää teetä.",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600",
+          "imageAlt": "Matcha-juustokakku"
+        }
+      ]
+    },
+    "pricing": {
+      "subtitle": "Suunnittele vierailusi",
+      "title": "Buffetin hinnat ja aukioloajat",
+      "description": "Liity seuraamme herkulliselle makumatkalle. Tarjoamme edulliset lounashinnat ja premium-elämyksen iltaisin ja viikonloppuisin.",
+      "perPerson": "/ henkilö",
+      "reserveNow": "Varaa nyt",
+      "cards": [
+        {
+          "title": "Lounasbuffet arkipäivisin",
+          "time": "Ma - Pe | 11.00 - 15.00",
+          "price": "14.50€",
+          "features": ["Täysi sushivalikoima", "Lämpimät ruoat", "Salaattibaari", "Kahvi ja tee"]
+        },
+        {
+          "title": "Viikonloppubuffet",
+          "time": "La - Su | 15.00 - sulkemiseen",
+          "price": "17.90€",
+          "features": ["Premium-sushivalikoima", "Teppanyaki-grilli", "Erikoisrullat", "Jälkiruokabuffet"],
+          "highlight": true
+        }
+      ],
+      "hoursTitle": "Aukioloajat",
+      "hours": [
+        { "day": "Maanantai - torstai", "time": "11.00 - 21.00" },
+        { "day": "Perjantai", "time": "11.00 - 22.00" },
+        { "day": "Lauantai", "time": "12.00 - 22.00" },
+        { "day": "Sunnuntai", "time": "12.00 - 21.00" }
+      ],
+      "noteLabel": "Huomio",
+      "note": "Keittiö sulkeutuu 30 minuuttia ennen sulkemisaikaa. Poikkeavat aukioloajat pyhäpäivinä ovat mahdollisia."
+    },
+    "gallery": {
+      "subtitle": "Visuaalinen matka",
+      "title": "Akitan tunnelmaa",
+      "description": "Kurki kauniiseen ravintolatilaamme ja annoksiin, jotka valmistamme intohimolla.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=800",
+          "title": "Sushiannos",
+          "size": "large",
+          "alt": "Ensiluokkainen sushiannos"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+          "title": "Ruokailutila",
+          "size": "small",
+          "alt": "Ravintolan ruokailutila"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1632158929962-a929c9e87570?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Teppanyaki-grilli",
+          "size": "small",
+          "alt": "Teppanyaki-grilli"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=800",
+          "title": "Tuore sashimi",
+          "size": "medium",
+          "alt": "Tuore sashimi"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800",
+          "title": "Buffetvalikoima",
+          "size": "medium",
+          "alt": "Buffetvalikoima"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581184953963-d15972933db1?auto=format&fit=crop&q=80&w=800",
+          "title": "Japanilaiset lisukkeet",
+          "size": "small",
+          "alt": "Japanilaisia lisukkeita"
+        }
+      ]
+    },
+    "testimonials": {
+      "subtitle": "Asiakasarviot",
+      "title": "Mitä vieraamme sanovat",
+      "description": "Olemme ylpeitä voidessamme tarjota poikkeuksellisen ruokailuelämyksen. Tässä muutamia asiakkaidemme kokemuksia.",
+      "items": [
+        {
+          "name": "Anna K.",
+          "role": "Paikallinen opas",
+          "content": "Joensuun paras sushibuffet! Kaikki on todella tuoretta ja valikoima vaikuttava. Teppanyaki on pakko kokeilla.",
+          "rating": 5
+        },
+        {
+          "name": "Markus L.",
+          "role": "Vakioasiakas",
+          "content": "Tilaamme usein Woltin kautta, ja ruoka saapuu aina tuoreena ja kauniisti esille laitettuna. Nopea toimitus ja erinomainen laatu.",
+          "rating": 5
+        },
+        {
+          "name": "Elena S.",
+          "role": "Ruokaharrastaja",
+          "content": "Todella premium-tason tunnelma. Täydellinen paikka liikelounaalle tai erityiselle perheillalliselle. Henkilökunta on erittäin ystävällistä.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Löydä meidät",
+      "titleLineOne": "Vieraile luonamme",
+      "titleAccent": "Joensuun sydämessä",
+      "addressLabel": "Osoite",
+      "address": "Kauppakatu 25, 80100 Joensuu, Suomi",
+      "phoneLabel": "Puhelin",
+      "phone": "+358 12 345 6789",
+      "statusLabel": "Tämänhetkinen tila",
+      "statusOpen": "Avoinna nyt klo 21.00 asti",
+      "directionsCta": "Hae reittiohjeet",
+      "callCta": "Soita nyt",
+      "orderCta": "Tilaa Woltista",
+      "mapTitle": "Akita-ravintolan sijainti"
+    },
+    "footer": {
+      "description": "Koe Joensuun laadukkain japanilainen buffet. Tuore sushi, kuuma teppanyaki ja premium-tason tunnelma odottavat sinua.",
+      "quickLinksTitle": "Pikalinkit",
+      "links": [
+        { "name": "Etusivu", "href": "#home" },
+        { "name": "Menu", "href": "#menu" },
+        { "name": "Buffet", "href": "#buffet" },
+        { "name": "Kuljetus", "href": "#delivery" },
+        { "name": "Meistä", "href": "#about" },
+        { "name": "Galleria", "href": "#gallery" },
+        { "name": "Yhteystiedot", "href": "#contact" }
+      ],
+      "contactTitle": "Ota yhteyttä",
+      "orderTitle": "Tilaa verkossa",
+      "orderDescription": "Saat suosikkiannoksesi kotiovelle toimitettuna Woltin kautta.",
+      "orderCta": "Tilaa Woltista",
+      "deliveryNote": "Nopea ja turvallinen toimitus",
+      "copyright": "© 2026 Akita Teppanyaki & Sushi. Kaikki oikeudet pidätetään.",
+      "privacy": "Tietosuojakäytäntö",
+      "terms": "Käyttöehdot"
+    },
+    "ai": {
+      "systemPrompt": "You are the Akita Teppanyaki & Sushi AI Concierge. Your goal is to help guests with information about the restaurant and assist with table reservations. Restaurant Info: - Name: Akita Teppanyaki & Sushi - Cuisine: Japanese buffet, sushi, teppanyaki - Location: Kauppakatu 25, 80100 Joensuu, Finland - Signature Dishes: Dragon Roll, Salmon Nigiri Platter, Teppanyaki Ribeye, Matcha Cheesecake. - Hours: Mon-Thu 11am-9pm, Fri 11am-10pm, Sat 12pm-10pm, Sun 12pm-9pm. - Reservations: We take reservations for parties up to 10 people. - Delivery: Available via Wolt and takeaway pickup. When a user wants to reserve: 1. Ask for the date and time. 2. Ask for the number of guests. 3. Ask for a name and contact info. 4. Confirm the details (simulated). Be elegant, professional, and welcoming.",
+      "notConfigured": "AI-conciergeä ei ole vielä määritetty. Lisää `VITE_OPENROUTER_API_KEY` ympäristömuuttujiin.",
+      "processingError": "Pahoittelen, pyynnön käsittelyssä ilmeni ongelma.",
+      "resting": "Pahoittelen, olen juuri nyt levossa. Yritä myöhemmin uudelleen.",
+      "title": "Akita Concierge",
+      "subtitle": "Aina palveluksessasi",
+      "welcome": "Tervetuloa Akita Teppanyaki & Sushiin. Kuinka voin auttaa ruokailuelämyksessäsi tänään?",
+      "suggestionTitle": "Suositut kysymykset",
+      "suggestedQuestions": [
+        {
+          "id": "hours",
+          "label": "Mitkä ovat aukioloaikanne?"
+        },
+        {
+          "id": "buffet-price",
+          "label": "Paljonko buffet maksaa?"
+        },
+        {
+          "id": "reservation",
+          "label": "Miten voin varata pöydän?"
+        }
+      ],
+      "placeholder": "Kysy varauksista tai menusta...",
+      "open": "Avaa AI-concierge",
+      "close": "Sulje AI-concierge"
+    }
+  }
+}

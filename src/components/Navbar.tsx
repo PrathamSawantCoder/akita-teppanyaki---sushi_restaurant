@@ -127,19 +127,17 @@ export const Navbar = () => {
               );
             })}
           </motion.div>
-          <div className="hidden min-[1140px]:flex items-center space-x-4">
-            <Button variant="outline" size="sm" className={cn(
-              "border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white cursor-pointer",
-              !isScrolled && "border-white/30 text-white hover:bg-white hover:text-brand-green cursor-pointer"
-            )}>
-              <Calendar className="w-4 h-4 mr-2" />
-              {reserve}
-            </Button>
-            <Button variant="wolt" size="sm" className="cursor-pointer">
-              <ShoppingBag className="w-4 h-4 mr-2" />
-              {orderOnWolt}
-            </Button>
-          </div>
+          <Button variant="outline" size="sm" className={cn(
+            "border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white cursor-pointer",
+            !isScrolled && "border-white/30 text-white hover:bg-white hover:text-brand-green cursor-pointer"
+          )}>
+            <Calendar className="w-4 h-4 mr-2" />
+            {reserve}
+          </Button>
+          <Button variant="wolt" size="sm" className="cursor-pointer">
+            <ShoppingBag className="w-4 h-4 mr-2" />
+            {orderOnWolt}
+          </Button>
         </div>
 
         {/* Mobile Toggle */}
@@ -206,7 +204,7 @@ export const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <div className="flex flex-col space-y-4 pt-4">
+              <div className="hidden xl:flex flex-col space-y-4 pt-4">
                 <Button variant="outline" className="w-full cursor-pointer">
                   <Calendar className="w-4 h-4 mr-2" />
                   {reserveTable}
