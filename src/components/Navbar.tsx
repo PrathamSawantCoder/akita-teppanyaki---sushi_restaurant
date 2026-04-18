@@ -46,7 +46,7 @@ export const Navbar = () => {
       >
       <div className="xl:container mx-auto flex items-center justify-between px-4 sm:px-6">
         {/* Logo */}
-        <a href="#home" className="flex max-w-[11rem] flex-col sm:max-w-none">
+        <a href="#home" className="flex max-w-44 flex-col sm:max-w-none">
           <span className={cn(
             "text-xl sm:text-2xl md:text-3xl font-serif tracking-tight transition-colors duration-300",
             isScrolled ? "text-brand-green" : "text-white"

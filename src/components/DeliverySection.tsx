@@ -66,7 +66,7 @@ export const DeliverySection = () => {
             </div>
 
             {/* Image Side */}
-            <div className="relative order-first min-h-72 sm:min-h-96 lg:order-none lg:h-full lg:min-h-full">
+            <div className="relative order-first min-h-72 sm:min-h-96 lg:order-0 lg:h-full lg:min-h-full">
               <motion.div
                 initial={{ opacity: 0, scale: 1.1 }}
                 whileInView={{ opacity: 1, scale: 1 }}
